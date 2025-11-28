@@ -1,0 +1,9 @@
+.text-and-img {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+}
+
+.text-and-img img {
+  width: 100%;
+  height: auto;
+}
