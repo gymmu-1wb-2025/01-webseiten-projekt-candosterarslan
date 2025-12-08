@@ -7,3 +7,24 @@
   width: 100%;
   height: auto;
 }
+.title {
+  background-color: rgb(80, 36, 36);
+  color: rgb(25, 79, 161);
+  font-size: 32pt;
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 16px;
+  align-content: normal;
+  justify-content: start;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-wrapper > * {
+  border: 1px dashed rgb(179, 23, 23);
+}
