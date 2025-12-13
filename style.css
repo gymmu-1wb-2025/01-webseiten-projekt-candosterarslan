@@ -50,6 +50,8 @@ nav {
   background-color: rgb(7, 120, 25);
   padding: 10px;
   text-align: center;
+  color: aliceblue;
+  decoration: none;
 }
 section .navigation-links {
   list-style-type: none;
