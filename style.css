@@ -51,7 +51,7 @@ nav {
   padding: 10px;
   text-align: center;
   color: aliceblue;
-  decoration: none;
+  text-decoration: none;
 }
 section .navigation-links {
   list-style-type: none;
