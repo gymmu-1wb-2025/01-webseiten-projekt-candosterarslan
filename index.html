@@ -7,32 +7,74 @@
     <title>Cristiano Ronaldo</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div class="grid-wrapper"></div>
-    <header>
+  <body class="grid-wrapper">
+    <header class="grid-area: header"><!--blablaba-->
       <h1>Cristiano Ronaldo</h1>
     </header>
     <nav>
-      <a href="./unterseiten/ueberronaldo.html">Über Ronaldo</a>
-      <a href="./unterseiten/Karriereverlauf.html">Karriereverlauf</a>
-      <a href="./unterseiten/rekordeundauszeichnungen.html"
-        >Rekorde und Auszeichnungen</a
-      >
+      <ul>
+        <li>
+          <a href="./unterseiten/ueberronaldo.html">
+            <svg
+              width="60"
+              height="60"
+              fill="none"
+              stroke="black"
+              stroke-width="3"
+            >
+              <circle cx="30" cy="20" r="12"/><!-- Kopf -->
+              <line x1="18" y1="50" x2="42" y2="50"/><!-- Schultern (y1=erste y Koordinate, y2= zweite y Koordinate) -->
+              <line x1="30" y1="32" x2="30" y2="50"/><!-- Körper -->
+            </svg>
+            Über Ronaldo</a
+          >
+        </li>
+
+        <li>
+          <a href="./unterseiten/Karriereverlauf.html">
+            <svg
+              width="60"
+              height="60"
+              fill="none"
+              stroke="black"
+              stroke-width="3"
+            >
+              <rect x="20" y="30" width="20" height="20"/><!-- Hauskörper -->
+              <line x1="20" y1="30" x2="30" y2="15"/><!-- linke Dachkante -->
+              <line x1="30" y1="15" x2="40" y2="30"/><!-- rechte Dachkante -->
+            </svg>
+            Karriereverlauf
+          </a>
+        </li>
+        <li>
+          <a href="./unterseiten/rekordeundauszeichnungen.html">
+            <svg
+              width="60"
+              height="60"
+              fill="none"
+              stroke="black"
+              stroke-width="3"
+            >
+              <circle cx="30" cy="30" r="15"/><!-- äusserer Kreis -->
+              <circle cx="30" cy="30" r="6"/><!-- innerer Kreis (Soll wie eine Dartscheibe aussehen, für die erreichten sachen) -->
+            </svg>
+            Rekorde und Auszeichnungen
+          </a>
+        </li>
+      </ul>
     </nav>
-    <main>
+    <main style="grid-area: main">
       <h2>Über Ronaldo:</h2>
       <p>
         Cristiano Ronaldo dos Santos Aveiro ist am 5. Februar 1985 in Funchal,
         Portugal geboren und in sehr armen Verhältnissen aufgewachsen. Mit 12
         Jahren zog er nach Lissabon, um in der Jugendakademie von Sporting
-        Lissabon zu spielen. Aktuell spielt Ronaldo als Stürmer für den
-        saudi-arabischen Verein Al Nassr und die portugiesische
-        Nationalmannschaft.
-        <p></p>Er hat 5 Kinder, davon 4 mit seiner Partnerin Georgina Rodriguez
-        und einen Sohn aus einer früheren Beziehung, welcher Cristiano Jr.
-        heisst und in die Fussstapfen seines Vaters treten möchte. 2025 hat
-        Ronaldo seiner Frau einen Heiratsantrag gemacht, die Hochzeit ist für
-        den Sommer 2026 (nach der Weltmeisterschaft) geplant.
+        Lissabon zu spielen. Heute lebt er mit seiner Partnerin Georgina
+        Rodriguez und fünf Kindern zusammen, vier mit Georgina und einen Sohn
+        aus einer früheren Beziehung, Cristiano Jr, der in die Fussstapfen
+        seines Vaters treten möchte. 2025 hat Ronaldo seiner Frau einen
+        Heiratsantrag gemacht, die Hochzeit ist für den Sommer 2026 (nach der
+        Weltmeisterschaft) geplant.
       </p>
       <a
         href="https://112.ua/de/cristiano-ronaldo-chooses-stunning-511-year-old-venue-for-wedding-to-georgina-rodriguez-114551"
@@ -41,13 +83,11 @@
       >
 
       <p>
-        Ronaldo gilt als einer der besten Fussballer aller Zeiten und hat
-        zahlreiche Rekorde und Auszeichnungen in seiner Karriere erzielt. Er ist
-        bekannt für seine Schnelligkeit, Spielintelligenz und
-        Torjägerqualitäten. Ausserdem hat er eine eigene Marke "CR7" (Cristiano
-        Ronaldo 7), die Unterhosen, Wasser und Parfüme verkauft. Sein Vermögen
-        wird auf über 1,4 Milliarden Franken geschätzt, womit er einer der
-        reichsten Sportler der Welt ist.
+        Ronaldo ist bekannt für seine Disziplin, harte Arbeit und seine Fitness.
+        Neben dem Fussball hat er eine eigene Marke "CR7" (Cristiano Ronaldo 7),
+        die Unterhosen, Wasser und Parfüme verkauft. Sein Vermögen wird auf über
+        1,4 Milliarden Franken geschätzt, womit er einer der reichsten Sportler
+        der Welt ist.
       </p>
       <p>
         <a
@@ -59,15 +99,35 @@
       <section>
         <h2>Karriereverlauf</h2>
         <p>
-          Ronaldo begann seine profesionelle Karriere bei Sporting Lissabon in
-          Portugal und wechselte 2003 für 19 Millionen Euro zu Manchester United
-          in die englische Premier League. 2009 wechselte er für die damalige
-          Rekordsumme von 94 Millionen Euro zu Real Madrid in die spanische La
-          Liga. 2018 wechselte er für 117 Millionen zu Juventus Turin in die
-          italienische Serie A, bevor er 2021 für 17 Millionen zu Manchester
-          United zurückkehrte. Im Jahr 2023 wechselte er überraschenderweise zu
-          Al Nassr in Saudi-Arabien, wo er im Jahr über 200 Millionen Franken
-          verdient.
+          Ronaldo begann seine professionelle Karriere bei Sporting Lissabon in
+          Portugal, wo er bereits als Teenager durch sein enormes Talent
+          auffiel.
+        </p>
+        <p>
+          2003 wechselte er für 19 Millionen Euro zu Manchester United in die
+          englische Premier League. Dort entwickelte er sich schnell zu einem
+          der besten Spieler der Welt, gewann mehrere englische Meisterschaften
+          sowie den Champions-League Titel und wurde für seine Geschwindigkeit,
+          Technik und Torgefährlichkeit bekannt.
+        </p>
+        <p>
+          2009 wechselte er für die damalige Rekordsumme von 94 Millionen Euro
+          zu Real Madrid in die spanische La Liga. In Madrid erzielte er
+          zahlreiche Rekorde, gewann mehrfach die Champions League und wurde
+          mehrfach als Weltfussballer des Jahres ausgezeichnet.
+        </p>
+        <p>
+          2018 wechselte Ronaldo für 117 Millionen Euro zu Juventus Turin in die
+          italienische Serie A. Dort setzte er seine Erfolgsserie fort, gewann
+          nationale Titel und blieb auch international weiterhin einer der
+          besten Spieler der Welt. 2021 kehrte er für 17 Millionen Euro zu
+          Manchester United zurück und begeisterte die Fans erneut mit seiner
+          Erfahrung und seinem Torinstinkt. 2023 kam es schliesslich zu einem
+          überraschenden Wechsel zu Al Nassr in Saudi-Arabien. Grund dafür war
+          ein Streit mit dem Trainer und ein Interview mit Piers Morgan, in dem
+          er kritisch über den Verein sprach. In Saudi-Arabien verdient Ronaldo
+          nun pro Jahr über 200 Millionen Franken und bleibt weiterhin eine der
+          bekanntesten und erfolgreichsten Fussballlegenden weltweit.
         </p>
         <p>
           <a
@@ -81,28 +141,41 @@
       <section class="text-and-img">
         <div>
           <h2>Rekorde und Auszeichnungen</h2>
+          <p>Individuelle Auszeichnungen:</p>
+          <ul>
+            <li>5 Ballon d'Or Auszeichnungen (2008, 2013, 2014, 2016, 2017)</li>
+            <li>4 Europäische Goldene Schuhe (2008, 2011, 2014, 2015)</li>
+            <li>Rekordtorschütze der UEFA Champions League</li>
+            <li>1 mal FIFA-Puskás-Preis (2009)</li>
+            <li>UEFA Nations League Finals Top Scorer (geteilt 2019, 2025)</li>
+            <li>Mehrfacher Champions-League Toptorschütze </li>
+          </ul>
+          <p>UEFA & Internationale Rekorde:</p>
+          <ul>
+            <li>
+              Rekordtorschütze UEFA Champions League - die meisten Tore aller
+              Zeiten
+            </li>
+            <li>Die meisten Tore in UEFA-Klubwettbewerben insgesamt</li>
+            <li>Rekord für die meisten Tore in UEFA-Europameisterschaften</li>
+            <li>Meiste Champions League Einsätze</li>
+            <li>
+              Erster Spieler, der 100 Tore in der UEFA Champions League erzielte
+            </li>
+          </ul>
+          <p>Nationalmanschaft:</p>
+          <ul>
+            <li>Rekordtorschütze der portugiesischen Nationalmannschaft</li>
+            <li>UEFA Nations League sieg 2019 und 2025</li>
+            <li>Europameisterschaft 2016 </li>
+          </ul>
           <p>
-            Cristiano Ronaldo hat zahlreiche Rekorde und Auszeichnungen in
-            seiner Karriere erzielt, darunter:
-            <ul>
-              <li>
-                5 Ballon d'Or Auszeichnungen (2008, 2013, 2014, 2016, 2017)
-              </li>
-              <li>4 Europäische Goldene Schuhe (2008, 2011, 2014, 2015)</li>
-              <li>Rekordtorschütze der UEFA Champions League</li>
-              <li>1 mal FIFA-Puskás-Preis (2009)</li>
-              <li>Rekordtorschütze der portugiesischen Nationalmannschaft</li>
-              <li>Gewinner der UEFA Europameisterschaft 2016 mit Portugal</li>
-              <li>
-                Gewinner der UEFA Nations League 2019 und 2025 mit Portugal
-              </li>
-            </ul>
+            <a
+              href="https://www.transfermarkt.ch/cristiano-ronaldo/profil/spieler/8198"
+              target="_blank"
+              >Spielerprofil Transfermarkt</a
+            >
           </p>
-          <a
-            href="https://www.transfermarkt.ch/cristiano-ronaldo/profil/spieler/8198"
-            target="_blank"
-            >Spielerprofil Transfermarkt</a
-          >
         </div>
 
         <img
@@ -111,7 +184,7 @@
         >
       </section>
     </main>
-    <footer>
+    <footer style="grid-area: footer">
       <p>© 2025 Candost Erarslan | Informatikprojekt | 1 WB</p>
       <svg>…</svg>
     </footer>

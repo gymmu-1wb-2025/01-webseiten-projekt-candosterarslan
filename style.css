@@ -23,10 +23,11 @@
 .box-wrapper {
   display: flex;
   flex-direction: row;
+  gap: 16px;
 }
 
 .box-wrapper > * {
-  border: 1px dashed rgb(179, 23, 23);
+  border: 1px dashed rgb(7, 116, 18);
 }
 .title {
   background-color: rgb(232, 9, 9);
@@ -35,22 +36,22 @@
 }
 
 header {
-  background-color: rgb(255, 253, 253);
+  background-color: rgb(255, 0, 0);
   padding: 10px;
   text-align: center;
 }
 
 header h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(11, 11, 11);
 }
 header h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-  background-color: rgb(7, 120, 25);
+  background-color: rgb(61, 204, 25);
   padding: 10px;
   text-align: center;
-  color: aliceblue;
+  color: rgb(61, 204, 25);
   text-decoration: none;
 }
 section .navigation-links {
@@ -69,17 +70,20 @@ section .navigation-links {
   justify-content: flex-start;
   flex-wrap: nowrap;
 }
-.flex-wrapper header img.flag {
-  width: 50px;
-  height: auto;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 h1 {
   background-color: rgb(255, 0, 51);
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+.grid-wrapper {
+  display: grid;
+  height: 82vh;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
 }
